@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="./src/css/reset.css" />
+		<link rel="stylesheet" href="./src/css/estilos.css" />
+		<link rel="stylesheet" href="./src/css/responsivo.css" />
+
+		<title>Cowboy Bebop</title>
+	</head>
+
+	<body>
+
+		<main class="personagens">
+			<audio src="/src/audio/audio-atank.mp3"  controls>
+				<source src="/src/audio/audio-atank.mp3" type="audio/mpeg">
+			</audio>
+			<div class="personagem selecionado">
+				<img class="imagem" src="./src/imagens/cowboy-bebop-spike-spiegel2.gif" alt="Spike Spiegel" />
+				<div class="conteudo">
+					<i class="logo"></i>
+					<h2 class="nome-personagem">Spike Spiegel</h2>
+					<p class="descricao">Nascido em Marte, Spike é um caçador de recompensas que forma dupla com Jet. Apesar de franzino, é um exímio lutador de “Jeet Kune Do” (o estilo de luta criado por Bruce Lee), adora o perigo e gosta de buscar fortes emoções. Já se envolveu com a Dragão Vermelho, a mafia chinesa.</p>
+				</div>
+			</div>		
+
+			<div class="personagem">
+				<img class="imagem" src="./src/imagens/cowboy-bebop-jet-walk.gif" alt="Jet Black" />
+				<div class="conteudo">
+					<i class="logo"></i>
+					<h2 class="nome-personagem">Jet Black</h2>
+					<p class="descricao">Natural de Ganimede, lua de Júpiter, Jet era policial da ISSP (Inter Solar System Police) mas depois de um acidente que lhe custou o braço direito ele se tornou caçador de recompensas. Apesar da cara de cinquentão, ainda tem 36 anos e é o dono da nave espacial Bebop, que serve de casa para os heróis.</p>
+				</div>
+			</div>
+
+			<div class="personagem">
+
+				<img class="imagem" src="./src/imagens/faye-valentine.gif" alt="Faye Valentine" />
+				<div class="conteudo">
+					<i class="logo"></i>
+					<h2 class="nome-personagem">Faye Valentine</h2>
+					<p class="descricao">Origem desconhecida. Caçadora de recompensas que gosta de trabalhar de forma independente mas que acabou se juntando ao grupo. Adora jogos de azar e é uma grande trapaceira. Possui uma dívida enorme e é muito apegada ao dinheiro. Passou 54 anos em estado de animação suspensa e perdeu a memória do passado.</p>
+				</div>
+			</div>
+
+			<div class="personagem">
+				<img class="imagem" src="./src/imagens/ed.gif" alt="Ed" />
+				<div class="conteudo">
+					<i class="logo"></i>
+					<h2 class="nome-personagem">Ed</h2>
+					<p class="descricao">Menina raquítica natural da Terra de 13 anos. Hacker de primeira categoria. Presume-se que seja inteligente, mas parece desmiolada e suas ações são imprevisíveis. Possui um super computador montado por ela mesma através de sucatas e que foi batizado de “Tomato”.</p>
+				</div>
+			</div>
+
+			<div class="personagem">
+				<img class="imagem" src="./src/imagens/ein-bebop-cowboy.gif" alt="Ein" />
+				<div class="conteudo">
+					<i class="logo"></i>
+					<h2 class="nome-personagem">Ein</h2>
+					<p class="descricao">Cão da raça Welsh Corgi Pembroke, Ein é um “cachorro de dados” super inteligente desenvolvido ilegalmente por um Laboratório. Apesar de não falar, compreende a língua das pessoas e é até capaz de mexer no computador, mas ninguém sabe disso.</p>
+				</div>
+			</div>
+		</main>
+		<ul class="botoes">				
+			<li>
+				<button  class="botao selecionado">
+					<img src="./src/imagens/spike.png" alt="Spike Spiegel" />
+				</button>
+			</li>
+			<li>
+				<button class="botao">
+					<img src="./src/imagens/jetblack.png" alt="Jet Black" />
+				</button>
+			</li>
+			<li>
+				<button class="botao">
+					<img src="./src/imagens/faye.png" alt="Faye Valentine" />
+				</button>
+			</li>
+			<li>
+				<button class="botao">
+					<img src="./src/imagens/ed.png" alt="Ed" />
+				</button>
+			</li>
+			<li>
+				<button class="botao">
+					<img src="./src/imagens/ein.png" alt="Ed" />
+				</button>
+			</li>
+		</ul>
+		<script src="./src/js/index.js"></script>
+	</body>
+</html>
