@@ -34,11 +34,12 @@ main .personagem .imagem {
     min-height: 50vh;
     max-width: 380px;
     z-index: 1;
+
     
 }
 
 .conteudo .nome-personagem {
-    color: #ffffff;
+    color: #ffff00;
     font-size: 48px;
     font-family: "Anton";
     font-weight: 400;
